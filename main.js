@@ -1,5 +1,3 @@
-console.log("✅ main.js berhasil dijalankan!");
-alert("Halo Rifqi, JavaScript sudah aktif!");
 
 // Smooth scroll
 document.querySelectorAll('.nav-links a').forEach(link => {
@@ -34,4 +32,5 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
 
