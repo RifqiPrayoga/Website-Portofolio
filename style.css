@@ -252,9 +252,23 @@ section p {
 }
 
 .project-card img {
-  width: 30%;
+  width: 80%;
   border-radius: 10px;
   margin-bottom: 15px;
+}
+
+.project-wordpress {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.project-portofolio {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    object-fit: contain;
 }
 
 .project-card h3 {
@@ -426,3 +440,4 @@ footer nav a {
 footer nav a:hover {
   text-decoration: underline;
 }
+
