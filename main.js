@@ -33,4 +33,14 @@ window.addEventListener("scroll", () => {
   });
 });
 
+const downloadBtn = document.querySelector(".btn-download");
+if (downloadBtn) {
+  downloadBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    alert("📄 CV sedang diproses untuk diunduh...");
+    window.location.href = "CV-Rifqi-Prayoga.zip";
+  });
+}
+
+
 
