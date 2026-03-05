@@ -38,9 +38,10 @@ if (downloadBtn) {
   downloadBtn.addEventListener("click", (e) => {
     e.preventDefault();
     alert("📄 CV sedang diproses untuk diunduh...");
-    window.location.href = "CV-Rifqi-Prayoga.zip";
+    window.location.href = "CV-Rifqi-Prayoga.new.zip";
   });
 }
+
 
 
 
